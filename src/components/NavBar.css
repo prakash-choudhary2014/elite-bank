@@ -1,0 +1,547 @@
+.bank-logo{
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.elite-bank{
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.home{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  
+}
+.robot{
+  height: 500px;
+  width: 400px;
+  margin-right: 0px;
+  
+}
+.intro{
+  width: 300px;
+ 
+  text-align: justify;
+  font-size: 1.5rem;
+  margin: 30px auto 30px auto;
+  color: aliceblue;
+}
+.intro-Head{
+  color: antiquewhite;
+}
+
+
+.stats-outer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.stat-key{
+  color: #96c1d8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.business-outer{
+  display: flex;
+  margin: 100px 20px 20px 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(125.17deg, #523a3a 0%, #11101d 100%);
+}
+
+.feature{
+  display: flex;
+  color: antiquewhite;
+}
+
+.business-head{
+  font-size: 3rem;
+  color: azure;
+  margin-bottom: 20px;
+}
+
+.business-intro{
+  font-size: 1.5rem;
+  color: wheat;
+  text-align: justify;
+  align-items: center;
+}
+.feature-para{
+  font-size: 1.4rem;
+  color: wheat;
+  text-align: justify;
+  margin-right: 20px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.business{
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 50%;
+}
+.feature {
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.feature-outer{
+ margin-left: 40px;
+}
+
+.feature-inner{
+  margin-bottom: 5%;
+}
+.feature-inner:hover{
+  background: rgb(43, 42, 42);
+
+}
+
+.bill-img{
+ height: 500px;
+ width: 500px;
+  margin: auto;
+}
+
+.bill-outer{
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.bill-inner{
+width: 50%;
+align-items: center;
+}
+
+.download{
+  justify-content: space-evenly;
+}
+
+.card-head{
+  font-size: 3rem;
+  color: azure;
+  margin-bottom: 20px;
+}
+
+.card-para{
+  font-size: 1.5rem;
+  color: wheat;
+  text-align: justify;
+  align-items: center;
+  margin-left: 60px;
+}
+.card-outer{
+  display: flex;
+  margin-top: 100px;
+  background: linear-gradient(125.17deg, #221b1b 0%, #5a5682 100%);
+}
+
+.card-inner{
+  width: 50%;
+}
+
+.card-img{
+  width: 50%;
+
+}
+.card-mobile{
+  width: 400px;
+  height: 400px;
+}
+
+.client-para{
+  font-size: 1.5rem;
+  color: #96c1d8;
+  text-align: justify;
+  
+}
+
+.client-head{
+  font-size: 1.7rem;
+  color: aliceblue;
+  font-style: italic;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.client-outer{
+  display: flex;
+  align-content: space-evenly;
+}
+
+.client-card{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 30%;
+}
+.client-card:hover{
+  background: #272727;
+  border-radius: 2;
+}
+
+.client-people{
+  display: flex;
+  margin-top: 5%;
+}
+
+.client-top{
+  margin-top: 100px;
+  color: #7d6565;
+}
+
+.Companies-outer{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  
+}
+.companies-img{
+  margin: 0px 10px 0px 10px;
+  height: 90px;
+  width: 160px;
+}
+
+.banklogo-outer{
+  font-size: 20px;
+  color: aliceblue;
+  margin: 0px 20px 0px 20px;
+  width: 25%;
+}
+.Footer-outer{
+  display: flex;
+  margin-top: 100px;
+  align-items:flex-start;
+}
+
+.Footer-para{
+  font-size: 30px;
+  color: antiquewhite;
+}
+.footer-list{
+  list-style: none;
+  font-size: 23px;
+  text-align: justify;
+  color: rgb(232, 231, 229);
+  cursor: pointer;
+}
+
+.footer-link{
+  
+  width: 25%;
+}
+
+.footer-end{
+  margin-top: 100px;
+border-top: 1px solid rgb(67, 64, 64);
+height: 200px;
+}
+
+
+.footer-end{
+  display: flex;
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  
+}
+
+.footer-logo{
+  display: flex;
+  margin: auto;
+
+  
+}
+
+.border-end{
+  font-size: 23px;
+  width: 50%;
+  margin-top: 60px;
+  color: #7d6565;
+}
+
+.footer-img{
+  margin: 10px 20px 20px 20px;
+}
+
+.navbar {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  max-width: 1500px;
+}
+
+.nav-logo {
+  display: flex;
+  color: #96c1d8;
+  align-items: center;
+  margin-left: 30px;
+  padding-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 4rem;
+  font-style: italic;
+  flex-grow: 1;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: rgb(233, 230, 230);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: #e40707;
+}
+
+.nav-item .active {
+  color: #09e966;
+  border: 1px solid #320bce;
+}
+
+.nav-icon {
+  display: none;
+}
+
+.anchor{
+text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #ec0860;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .nav-container{
+    width:100%;
+    margin: auto 0px auto 0px;
+    
+  }
+
+  .nav-menu.active {
+    background: rgb(52, 46, 47);
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-item .active {
+    color: #cf0606;
+    border: none;
+  }
+  .nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #f56f08;
+  }
+  .bank-logo{
+    height: 40px;
+    margin-left: 5px;
+  }
+  .nav-logo{
+    font-size: 2.5rem;
+  }
+  .navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .elite-bank{
+margin-left: 5px;
+  }
+
+.home{
+  display: grid;
+  width: 360px;
+}
+.home-Head{
+  width: 360px;
+}
+
+.intro-Head{
+width: 360px;
+}
+
+.robot{
+  margin-right: 0px;
+  width: 250px;
+}
+.intro{
+  display: grid;
+  width: 300px;
+  align-items: center;
+  text-align: justify;
+  margin:auto;
+}
+
+.stats-outer{
+  display: grid;
+}
+.Companies-outer{
+  display: grid;
+ 
+}
+.companies-img{
+  margin-top: 50px;
+}
+
+.client-outer{
+  display: grid;
+ 
+  width: 360px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+}
+
+.client-para{
+  width: 300px;
+  margin-left: 30px;
+}
+.card-outer{
+  display: grid;
+}
+.bill-outer{
+  display: grid;
+  margin: auto;
+  
+}
+.Footer-outer{
+  display: grid;
+}
+.bill-img{
+  display: grid;
+  
+  width: 300px;
+}
+.card-mobile{
+  width: 300px;
+  display: grid;
+  margin: auto;
+ 
+ }
+.card-img{
+ width: 300px;
+ margin: auto;
+} 
+
+.business{
+  width: 300px; 
+  margin: auto;
+  }
+
+.business-outer{
+  display: grid;
+  margin: auto;
+  align-items: center;
+}
+
+
+.business-head{
+ text-align: justify;
+ 
+ margin:auto;
+  
+}
+.business-intro{
+margin:auto;
+width: 300px;
+}
+
+.card-inner{
+  width: 300px;
+  margin: auto;
+  
+}
+.card-head{
+  
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+
+}
+
+.card-para{
+  width: 300px;
+ margin: auto;
+}
+.banklogo-outer{
+  width: 300px;
+  margin:auto;
+}
+
+.footer-end{
+  margin-top: 50px;
+}
+.footer-link{
+  margin: auto;
+  margin-top: 50px;
+}
+.feature-inner{
+  display: grid;
+  width: 360px;
+  margin: auto;
+}
+.feature-para{
+  margin-left: 0px;
+}
+}
